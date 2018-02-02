@@ -1,0 +1,110 @@
+/*---- GENERAL CSS ---------------------------------------*/
+/*---- GENERAL CSS ---------------------------------------*/
+* {
+	box-sizing: border-box;
+}
+
+html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+}
+
+body{
+    background-color: #000000;
+}
+
+p {
+	color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0rem;
+	text-align: center;
+	margin: -10px 0 5px 0;
+}
+
+h6 {
+	font-size: .6em;
+	color: #ffffff;
+	text-align: center;
+	padding: 5px 0 0 0;
+}
+
+img { 
+    height: 200px;
+    width: 200px;
+	border: 2px, solid, #dddddd;
+}
+
+/*---- CLASS CSS ---------------------------------------*/
+/*---- CLASS CSS ---------------------------------------*/
+
+.alert {
+    position: relative;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.btn {
+    margin: 2px;
+	width: 100%;
+}
+.gifDiv{
+    float: left;
+    margin: 0px 25px 25px 0;
+	padding: 0 0 0 0;
+	border: 2px solid #dddddd;
+}
+
+.gifDiv:hover {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 20px #ffffff;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow;
+	transition-property: box-shadow;
+}
+
+.container {
+	background-color: #000000;
+	padding: 20px;
+	width: 75%;
+}
+
+/*---- ID CSS ---------------------------------------*/
+/*---- ID CSS ---------------------------------------*/
+ 
+#gifButtonsView {
+	background-color: #000000;
+	padding: 20px;
+	width: 100%;
+}
+
+#header {
+	background-color: #000000;
+	color: #ffffff;
+	box-sizing: border-box;
+}
+
+#addGif {
+	width: auto;
+}
+
+#gifForm {
+	float: right;
+	margin: 6px 0 0 0;
+}
+
+#ComedianName {
+    color: #ffffff;
+    box-sizing: border-box;
+    margin: -10px 0 0 0;
+    padding: 0 0 10px 10px;
+    font-size: 1.25em;
+}
+
+#gifV {
+	background-color: #000000;
+	padding: 20px 0px 0 30px;
+}
